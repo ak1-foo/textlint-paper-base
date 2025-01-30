@@ -1,0 +1,26 @@
+{
+  "plugins": ["latex2e"],
+  "rules": {
+    "preset-ja-engineering-paper": true,
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "ja-no-mixed-period": {
+        "periodMark": "．"
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "である",
+        "preferInBody": "である",
+        "preferInList": "である",
+        "strict": true
+      },
+      "max-kanji-continuous-len": {
+        "max": 10
+      },
+      "max-sentence-length": {
+        "max": 150
+      }
+    },
+    "preset-japanese": true,
+    "spellcheck-tech-word": true
+  }
+}

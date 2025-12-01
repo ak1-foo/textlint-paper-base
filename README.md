@@ -8,6 +8,5 @@
     - [.gitignore](.gitignore)
     - [.textlintrc.json](.textlintrc.json)
     - [package.json](package.json)
-    - [package-lock.json](package-lock.json)
 2. `npm install`
 3. (Option) VSCodeの拡張機能で[TextLint](https://marketplace.visualstudio.com/items?itemName=taichi.vscode-textlint)をインストール
